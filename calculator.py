@@ -4,6 +4,7 @@ calculator.py
 
 One function per operation, in order.
 """
+<<<<<<< HEAD
 
 
 # https://github.com/k8d0r/lab11-KC-JW
@@ -35,3 +36,19 @@ def exp(a, b):
 
 
 
+
+import math
+
+# First example
+def add(a, b):
+    return a + b
+def subtract(a, b):
+    return a - b
+def multiply(a, b):
+    return a * b
+def logarithm(a, b):
+    if b <= 0 or a <= 0 or a == 1:
+        raise ValueError
+    return math.log(b, a)
+def exponent(a, b):
+    return a ** b
