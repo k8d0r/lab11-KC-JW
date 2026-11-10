@@ -1,11 +1,3 @@
-"""
-calculator.py
-- Defines functions used to create a simple calculator
-
-One function per operation, in order.
-"""
-
-
 # https://github.com/k8d0r/lab11-KC-JW
 # Partner 1: Kieran Cochran
 # Partner 2: Jerry Wang
